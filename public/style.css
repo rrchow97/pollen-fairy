@@ -1,0 +1,138 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.layout {
+
+  display: grid;
+  grid-template-rows: 50px 1fr;
+  height: 100vh;
+}
+
+canvas {
+  position: fixed;
+  z-index: -1;
+}
+
+body {
+  width: 100%;
+  min-width: 750px;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(2, 37, 59)
+}
+canvas {
+  z-index: -2;
+  min-width: 750px;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("PollenBG.png");
+  background-repeat: no-repeat;
+  background-size:  100% 100%;
+}
+
+.header {
+  background-color: rgb(2, 37, 59);
+  color:rgb(255, 221, 216);
+  font-size: x-large;
+  padding: 8px 15px;
+}
+
+.contact {
+  float: right;
+  background-color: rgb(232, 63, 117);
+  padding: 4px 20px 5px 20px;
+  color: white;
+  border-radius: 25px;
+  font-size: large;
+}
+
+.information {
+  margin-top: calc(20vh - 50px);
+  margin-left: 20%;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 60%;
+  height: 60vh;
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr 12fr;
+  grid-template-columns: 5fr 5fr;
+}
+
+.information-header {
+
+  grid-column-start: 1;
+  grid-column-end: span 2;
+
+  text-align: center;
+  align-self: center;
+
+  font-size: xx-large;
+
+  /* border-bottom: 3px solid rgb(2, 37, 59); */
+}
+
+.new-city {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+
+  text-align: center;
+  align-self: center;
+
+  padding-bottom: 10px;
+
+  border-bottom: 3px solid rgb(2, 37, 59);
+}
+
+input {
+  border: solid 1px gainsboro;
+  padding: 5px;
+  width: 150px;
+}
+
+.button {
+  border: none;
+  padding: 5px 10px;
+  margin-left: 3px;
+  color: white;
+  background-color: rgb(232, 63, 117);
+  width: 80px;
+}
+
+.average-string {
+  font-size: xx-large;
+  text-align: center;
+}
+
+.donut-chart {
+  max-width: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  top: auto;
+  bottom: auto;
+}
+
+.icon {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.pollen-data {
+  padding: 3%;
+  display: grid;
+  grid-template-columns:min-content auto
+}
+
+.pollen-label {
+  /* text-align: center; */
+  padding-left: 5%;
+  align-self: center;
+  font-size: x-large;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
