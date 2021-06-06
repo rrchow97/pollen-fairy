@@ -1,7 +1,7 @@
 # [Pollen Fairy](https://pollen-fairy.herokuapp.com/) #
 
 For anyone with allergies to know what they're breathing in when they go outside<br/>
-[Website](https://pollen-fairy.herokuapp.com/)
+<a href="https://pollen-fairy.herokuapp.com/" target="_blank">Website</a>
 
 ## Authors: ##
 
