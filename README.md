@@ -14,6 +14,7 @@ For anyone with allergies to know what they're breathing in when they go outside
   > This website will display the pollen count, categorized by tree pollen, grass pollen, and weed pollen, and render the information to the screen. The pollen count will be visualized in the background with 2D animnated particles of pollen with a particle density accurately representing the density of pollen returned from the database for the given location.
 <br/>
 <br/>
+
 ![edit schedule page](pollen_fairy.gif)
 
 <br/>
