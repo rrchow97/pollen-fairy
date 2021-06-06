@@ -3,7 +3,11 @@
     "react-dev": "webpack --mode development --watch",
     "server-dev": "npx nodemon server/index.js",
     "build": "webpack",
+    "heroku-postbuild": "webpack -p",
     "start": "node ./server/index.js"
+  },
+  "engines": {
+    "node": "14.x"
   },
   "dependencies": {
     "@babel/core": "^7.14.3",

@@ -2,20 +2,19 @@
 
 For anyone with allergies to know what they're breathing in when they go outside
 
-<br/>
 
 ## Authors: ##
 
 > Ramisa Chowdhury - [GitHub](https://github.com/rrchow97) | [LinkedIn](https://www.linkedin.com/in/ramisachowdhury/) | [rrchow97@gmail.com](mailto:rrchow97@gmail.com?subject=[GitHub]%20Pollen%20Fairy)
 
-<br>
+
 
 ## Overview ##
   > This website will display the pollen count, categorized by tree pollen, grass pollen, and weed pollen, and render the information to the screen. The pollen count will be visualized in the background with 2D animnated particles of pollen with a particle density accurately representing the density of pollen returned from the database for the given location. For a fun experience, the pollen in the background reacts to mouse movement and is repelled from the cursor.
 <br/>
-<br/>
 
-![edit schedule page](pollen_fairy.gif)
+
+![edit schedule page](pollen-fairy.gif)
 
 <br/>
 
