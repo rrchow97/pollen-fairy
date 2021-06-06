@@ -9,7 +9,7 @@ let app = express();
 app.use(bodyParser.json());
 app.use(express.static(__dirname + '/../public'));
 
-let port = process.env.PORT | 3030;
+let port = process.env.PORT;
 
 app.get('/pollen', (req, res) => {
   axios.get(`https://api.ambeedata.com/latest/pollen/by-place?place=${req.query.place}`, {
@@ -44,7 +44,7 @@ app.get('/pollen', (req, res) => {
     })
 })
 
-app.listen(port, function() {
+app.listen(port, process.env.LOCALHOST || '0.0.0.0', function() {
   console.log(`listening on port ${port}`);
 });
 
