@@ -3,7 +3,7 @@
     "react-dev": "webpack --mode development --watch",
     "server-dev": "npx nodemon server/index.js",
     "build": "webpack",
-    "heroku-postbuild": "webpack -p",
+    "heroku-postbuild": "webpack",
     "start": "node ./server/index.js"
   },
   "engines": {
