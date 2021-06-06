@@ -15,7 +15,7 @@ For anyone with allergies to know what they're breathing in when they go outside
 <br/>
 <br/>
 
-![edit schedule page](pollen_fairy.gif)
+![pollen fairy gif](pollen-fairy.gif)
 
 <br/>
 
